@@ -1,72 +1,70 @@
-<!-- не забудь accesibility -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>todo app</title>
+    <meta charset="UTF-8">
+    <title>todo app</title>
 </head>
 <body>
-	<h1 class="main-title">todos</h1>
-	<div class="todo-list" aria-label="Список задач">
-		<ul>
-			<li>
-				<div class="list-item-input" aria-label="Ввод новой задачи">
-					what needs to be done?
-				</div>
-			</li>
+<h1 class="main-title">todos</h1>
+<div class="todo-list" aria-label="Список задач">
+    <ul>
+        <li>
+            <div class="list-item-input" aria-label="Ввод новой задачи">
+                what needs to be done?
+            </div>
+        </li>
 
-			<li>
-				<div class="list-item" aria-label="Задача">
-					<div class="list-item-condition" aria-label="Состояние задачи">
-						Uncompleted 
-					</div>
-					<div class="list-item-name" aria-label="Название задачи">
-						HTML
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="list-item" aria-label="Задача">
-					<div class="list-item-condition" aria-label="Состояние задачи">
-						Completed 
-					</div>
-					<div class="list-item-name" aria-label="Название задачи">
-						CSS
-					</div>
-				</div>
-			</li>
-		</ul>
+        <li>
+            <div class="list-item" aria-label="Задача">
+                <div class="list-item-condition" aria-label="Состояние задачи">
+                    Uncompleted
+                </div>
+                <div class="list-item-name" aria-label="Название задачи">
+                    HTML
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="list-item" aria-label="Задача">
+                <div class="list-item-condition" aria-label="Состояние задачи">
+                    Completed
+                </div>
+                <div class="list-item-name" aria-label="Название задачи">
+                    CSS
+                </div>
+            </div>
+        </li>
+    </ul>
 
-		<div class="list-footer" aria-label="Нижний блок списка задач">
-			<div class="list-item-counter">
-				3 items left
-			</div>
+    <div class="list-footer" aria-label="Нижний блок списка задач">
+        <div class="list-item-counter">
+            3 items left
+        </div>
 
-			<div class="list-item-filter" aria-label="Фильтр видимости списка задач">
-				<ul>
-					<li>
-						<div class="list-item-filter-switch" aria-label="Переключатель видимости">
-							All
-						</div>
-					</li>
-						<li>
-						<div class="list-item-filter-switch" aria-label="Переключатель видимости">
-							Active
-						</div>
-					</li>
-					<li>
-						<div class="list-item-filter-switch" aria-label="Переключатель видимости">
-							Completed
-						</div>
-					</li>
-				</ul>
-			</div>
+        <div class="list-item-filter" aria-label="Фильтр видимости списка задач">
+            <ul>
+                <li>
+                    <div class="list-item-filter-switch" aria-label="Переключатель видимости">
+                        All
+                    </div>
+                </li>
+                <li>
+                    <div class="list-item-filter-switch" aria-label="Переключатель видимости">
+                        Active
+                    </div>
+                </li>
+                <li>
+                    <div class="list-item-filter-switch" aria-label="Переключатель видимости">
+                        Completed
+                    </div>
+                </li>
+            </ul>
+        </div>
 
-			<div class="list-clear-info" aria-label="Информация об очистке списка">
-				Clear completed
-			</div>
-		</div>
-	</div>
-	
+        <div class="list-clear-info" aria-label="Информация об очистке списка">
+            Clear completed
+        </div>
+    </div>
+</div>
 </body>
 </html>
